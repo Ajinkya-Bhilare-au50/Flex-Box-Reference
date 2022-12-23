@@ -1,0 +1,109 @@
+body {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1.5px;
+
+}
+.parent {
+  border: 3px solid rgb(56, 54, 54);
+  margin: 5px;
+  padding: 10px;
+  height: 500px;
+  background-color: rgb(97, 30, 107);
+  display: flex;
+  flex-wrap: wrap;
+}
+.patel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+ 
+}
+.bgcolor1 {
+  background-color: #85d7b4;
+  
+  width: 90px;
+  height: 60px;
+  margin: 5px;
+  text-align: center;
+  border: 5px solid rgb(254, 254, 254);
+  border-radius: 8px;
+  vertical-align: middle;
+
+  /* order:2; */
+}
+.bgcolor2 {
+  background-color: #fecc54;
+  margin: 5px;
+  width: 90px;
+  height: 60px;
+  /* order:0; */
+
+  text-align: center;
+  border: 5px solid rgb(254, 254, 254);
+  border-radius: 8px;
+}
+.bgcolor3 {
+  background-color: #88d5ff;
+  width: 90px;
+  height: 60px;
+  text-align: center;
+  margin: 5px;
+  border: 5px solid rgb(254, 254, 254);
+  border-radius: 8px;
+
+  /* order:2; */
+  /* align-self:center; */
+}
+.bgcolor4 {
+  background-color: #e5ee64;
+  text-align: center;
+
+  width: 90px;
+  height: 60px;
+  margin: 5px;
+  border: 5px solid rgb(254, 254, 254);
+  border-radius: 8px;
+  /* order:2; */
+}
+.bgcolor5 {
+  background-color: #ca8ac4;
+  width: 90px;
+  height: 60px;
+  margin: 5px;
+
+  text-align: center;
+  border: 5px solid rgb(254, 254, 254);
+  border-radius: 8px;
+
+  /* order:3; */
+  /* align-self: flex-start; */
+}
+.r1 {
+  background-color: #e13737;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  display: flex;
+  text-align: center;
+  border: 5px solid #f4b4b4;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: aliceblue;
+}
+.parent2 {
+  border: 5px solid black;
+  display: flex;
+}
+.blue{
+  background-color:#2644ed;
+  color:#cfd5fb;
+}
