@@ -107,3 +107,20 @@ body {
   background-color:#2644ed;
   color:#cfd5fb;
 }
+
+
+.container {
+    display: flex;
+    width: 300px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    background: lightgray;
+    height: 400px;
+}
+.child {
+    padding: 12px;
+    background: red;
+    border: solid 1px black;
+}
